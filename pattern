@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<string.h>
+int main(){
+ int time;
+ char ch[0];
+ printf("Enter the character to be printed : ");
+ scanf("%s",&ch);
+ printf("Max Number of time printed : ");
+ scanf("%d",&time);
+ for(int i=1;i<=time;i++){
+ for(int j=0;j<i;j++){
+ printf("%s ",ch);
+ }
+ printf("\n");
+ }
+} 
